@@ -1,1 +1,3 @@
-print("Hello, CI/CD!")
+@app.route('/status')
+def status():
+    return "Status: OK"
