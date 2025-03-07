@@ -3,7 +3,7 @@ pipeline {
     stages {
         stage('Checkout') {
             steps {
-                git url: 'https://github.com/ton-username/devops-tp.git',
+                git url: 'https://github.com/Menyar555/devops-tp.git',
                     branch: 'main',
                     credentialsId: 'github-token'
             }
